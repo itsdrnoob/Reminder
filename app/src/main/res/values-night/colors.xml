@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#0065FF</color>
+    <color name="secondary">#FFA400</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="text">#F5F9FF</color>
+    <color name="background">#000A1A</color>
+    <color name="background_dark">#F5F9FF</color>
+    <color name="success">#64BC26</color>
+    <color name="error">#EA1601</color>
+    <color name="bottom_bar">#66A3FF</color>
+    <color name="shade">#001433</color>
+    <color name="primary_varient">#00327E</color>
+    <color name="hint">#CBC4C4</color>
+    <color name="insert_bg_stroke">#F5F9FF</color>
+    <color name="bottomsheet_bg">#001433</color>
+    <color name="splash">#000A1A</color>
+</resources>

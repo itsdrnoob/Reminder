@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Reminder</string>
+    <string name="view_reminder_text">You\'ll be reminded to %1$s at %2$s on %3$s.</string>
+    <string name="view_reminder_reminder_name">Reminder Name</string>
+
+    <!-- Preference Titles -->
+
+    <!-- Messages Preferences -->
+
+    <!-- Sync Preferences -->
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="current_theme">Currently set to %1s theme</string>
+
+</resources>

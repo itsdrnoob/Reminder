@@ -1,0 +1,95 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Reminder" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_varient</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondary</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="bottomSheetDialogTheme">@style/AppBottomSheetDialogTheme</item>
+        <!--        <item name="buttonStyle">@style/ButtonTheme</item>-->
+        <!--        <item name="android:buttonStyle">@style/ButtonTheme</item>-->
+        <item name="android:fontFamily">@font/redhattext_regular</item>
+<!--        <item name="android:windowActivityTransitions">true</item>-->
+<!--        <item name="android:windowEnterTransition"></item>-->
+
+    </style>
+
+    <!--    <style name="AppBottomSheetDialogTheme"-->
+    <!--        parent="Theme.Design.Light.BottomSheetDialog">-->
+    <!--        <item name="bottomSheetStyle">@style/AppModalStyle</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="AppModalStyle"-->
+    <!--        parent="Widget.Design.BottomSheet.Modal">-->
+    <!--        <item name="android:background">@drawable/add_new_bg</item>-->
+    <!--    </style>-->
+
+    <style name="AppBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="theme">@style/AppBottomSheetDialogTheme</item>
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+    </style>
+
+    <style name="AppModalStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="theme">@style/AppModalStyle</item>
+        <item name="android:background">@drawable/add_new_bg</item>
+    </style>
+
+    <style name="DialogTheme" parent="Theme.MaterialComponents.DayNight.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/dialog_bg</item>
+        <item name="android:buttonBarPositiveButtonStyle">@style/DialogPositiveButtonStyle</item>
+        <item name="android:buttonBarNegativeButtonStyle">@style/DialogNegativeButtonStyle</item>
+    </style>
+
+    <style name="DialogPositiveButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="DialogNegativeButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <!--    <style name="ButtonTheme" parent="Theme.AppCompat.Light">-->
+    <!--&lt;!&ndash;        <item name="android:background">@drawable/add_btn_bg</item>&ndash;&gt;-->
+    <!--&lt;!&ndash;        <item name="android:buttonStyle">@drawable/add_btn_bg</item>&ndash;&gt;-->
+    <!--&lt;!&ndash;        <item name="android:buttonTint">@color/primary</item>&ndash;&gt;-->
+    <!--        <item name="theme">@style/ButtonTheme</item>-->
+    <!--        <item name="background">@color/black</item>-->
+
+    <!--    </style>-->
+
+    <!--    <style name="LightTheme" parent="Theme.AppCompat.Light">-->
+    <!--        <item name="primary">@color/primary</item>-->
+    <!--        <item name="secondary">@color/secondary</item>-->
+    <!--        <item name="text">@color/text</item>-->
+    <!--        <item name="backgroundColor">@color/background</item>-->
+    <!--        <item name="shade">@color/shade</item>-->
+    <!--        <item name="success">@color/success</item>-->
+    <!--        <item name="error">@color/error</item>-->
+    <!--        <item name="warning">@color/warning</item>-->
+    <!--        <item name="bottom_bar">@color/bottom_bar</item>-->
+    <!--        <item name="primary_varient">@color/primary_varient</item>-->
+    <!--        <item name="android:statusBarColor">@color/primary_varient</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="DarkTheme" parent="Theme.AppCompat.DayNight">-->
+    <!--        <item name="primary">@color/primary_dark</item>-->
+    <!--        <item name="secondary">@color/secondary_dark</item>-->
+    <!--        <item name="text">@color/text_dark</item>-->
+    <!--        <item name="backgroundColor">@color/background_dark</item>-->
+    <!--        <item name="shade">@color/shade_dark</item>-->
+    <!--        <item name="success">@color/success</item>-->
+    <!--        <item name="error">@color/error</item>-->
+    <!--        <item name="warning">@color/warning</item>-->
+    <!--        <item name="bottom_bar">@color/bottom_bar</item>-->
+    <!--        <item name="primary_varient">@color/primary_varient_dark</item>-->
+    <!--        <item name="android:statusBarColor">@color/primary_varient_dark</item>-->
+    <!--    </style>-->
+
+</resources>

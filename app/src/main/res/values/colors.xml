@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#0065FF</color>
+    <!--    <color name="primary_dark">#0065FF</color>-->
+    <color name="secondary">#FFA400</color>
+    <!--    <color name="secondary_dark">#FFA400</color>-->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="text">#001433</color>
+    <color name="text_dark">#F5F9FF</color>
+    <color name="background">#F5F9FF</color>
+    <color name="background_dark">#000A1A</color>
+    <color name="success">#64BC26</color>
+    <color name="error">#EA1601</color>
+    <color name="bottom_bar">#66A3FF</color>
+    <color name="shade">#FFFFFF</color>
+    <color name="hint">#A2A2A2</color>
+    <color name="insert_bg_stroke">#35309F</color>
+    <color name="bottomsheet_bg">#F5F9FF</color>
+    <color name="splash">#0065FF</color>
+    <!--    <color name="shade_dark">#001433</color>-->
+    <color name="primary_varient">#0051CC</color>
+    <!--    <color name="primary_varient_dark">#00327E</color>-->
+</resources>

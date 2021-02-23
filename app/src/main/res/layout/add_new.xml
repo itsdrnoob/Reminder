@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="30dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/add_reminder_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:text="New Reminder"
+        android:textColor="@color/text"
+        android:textSize="28dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="12dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:paddingEnd="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="18dp"
+                android:padding="5dp"
+                android:text="Reminder Name"
+                android:textColor="@color/text"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/add_reminder_date_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="18dp"
+                android:padding="5dp"
+                android:text="Reminder Date"
+                android:textColor="@color/text"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/add_reminder_time_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="18dp"
+                android:padding="5dp"
+                android:text="Reminder Time"
+                android:textColor="@color/text"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="12dp"
+            android:layout_weight="1.7"
+            android:orientation="vertical"
+            android:paddingLeft="8dp"
+            android:paddingTop="10dp">
+
+            <EditText
+                android:id="@+id/reminderNameInsert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="18dp"
+                android:background="@drawable/insert_bg"
+                android:inputType="textCapSentences"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="5dp"
+                android:singleLine="true"
+                android:textColor="@color/text"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/reminderDateInsert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="18dp"
+                android:background="@drawable/insert_bg"
+                android:hint="Select Date"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="5dp"
+                android:textColor="@color/text"
+                android:textColorHint="@color/hint"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/reminderTimeInsert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="18dp"
+                android:background="@drawable/insert_bg"
+                android:hint="Select Time"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="5dp"
+                android:textColor="@color/text"
+                android:textColorHint="@color/hint"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/add_btn_bg"
+        android:gravity="center"
+        android:text="Add Reminder"
+        android:textColor="@color/text_dark" />
+
+    <!--        <Button-->
+    <!--            android:background="p"-->
+    <!--            android:id="@+id/save"-->
+    <!--            android:layout_gravity="center"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginBottom="20dp"-->
+    <!--            android:layout_marginLeft="12dp"-->
+    <!--            android:layout_marginRight="12dp"-->
+    <!--            android:layout_marginTop="10dp"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:text="Add Reminder"-->
+    <!--            android:textAllCaps="false"-->
+    <!--            android:textColor="@color/background" />-->
+
+    <!--    <com.google.android.material.textview.MaterialTextView-->
+    <!--        android:id="@+id/save"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="40dp"-->
+    <!--        android:text="@string/app_name"-->
+    <!--        android:gravity="center"-->
+    <!--        android:background="@color/text"-->
+    <!--        android:textColor="@color/text"/>-->
+
+</LinearLayout>
