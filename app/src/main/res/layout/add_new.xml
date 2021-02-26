@@ -13,7 +13,7 @@
         android:layout_marginTop="25dp"
         android:text="New Reminder"
         android:textColor="@color/text"
-        android:textSize="28dp" />
+        android:textSize="28dp"/>
 
     <LinearLayout
         android:layout_width="match_parent"

@@ -27,10 +27,16 @@
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="705154b5-b011-42d5-8bcc-3673be52b8cd" name="Default Changelist" comment="Initial commit">
+    <list default="true" id="705154b5-b011-42d5-8bcc-3673be52b8cd" name="Default Changelist" comment="Layout Change">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/add_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/add_new.xml" afterDir="false" />
     </list>
@@ -185,6 +191,28 @@
       <option name="presentableId" value="Default" />
       <updated>1609412122725</updated>
     </task>
+    <task id="LOCAL-00001" summary="Layout Change">
+      <created>1614316463529</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614316463529</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Layout Change">
+      <created>1614317244811</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1614317244811</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Layout Change">
+      <created>1614317281640</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1614317281640</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,7 +220,34 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
@@ -200,9 +255,12 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="Layout Change" />
+    <option name="LAST_COMMIT_MESSAGE" value="Layout Change" />
   </component>
   <component name="WindowStateProjectService">
     <state x="591" y="298" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613700361916">
@@ -308,10 +366,10 @@
       <screen x="0" y="25" width="1920" height="965" />
     </state>
     <state x="513" y="35" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.25.1920.965@0.25.1920.965" timestamp="1613644327853" />
-    <state x="722" y="407" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614058889766">
+    <state x="722" y="407" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614317591133">
       <screen x="0" y="25" width="1920" height="965" />
     </state>
-    <state x="722" y="407" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1920.965@0.25.1920.965" timestamp="1614058889766" />
+    <state x="722" y="407" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1920.965@0.25.1920.965" timestamp="1614317591133" />
     <state x="684" y="271" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1613307574738">
       <screen x="0" y="25" width="1920" height="965" />
     </state>
