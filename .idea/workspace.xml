@@ -3,14 +3,16 @@
   <component name="AndroidLayouts">
     <shared>
       <config>
-        <device id="pixel_2" />
+        <device id="Nexus 6P" />
+        <device id="pixel_3a" />
+        <device id="pixel_3a_xl" />
+        <device id="pixel_c" />
         <device id="pixel_4_xl" />
-        <device id="Nexus 9" />
-        <device id="Nexus 10" />
-        <device id="pixel_3_xl" />
         <device id="pixel" />
-        <device id="Nexus 7 2013" />
+        <device id="Nexus 10" />
         <device id="pixel_xl" />
+        <device id="pixel_4" />
+        <device id="Nexus 9" />
       </config>
     </shared>
   </component>
@@ -28,13 +30,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="705154b5-b011-42d5-8bcc-3673be52b8cd" name="Default Changelist" comment="Initial commit" />
+    <list default="true" id="705154b5-b011-42d5-8bcc-3673be52b8cd" name="Default Changelist" comment="Initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/add_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/add_new.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -46,10 +51,10 @@
         <option value="Interface" />
         <option value="navigationResourceFile" />
         <option value="layoutResourceFile" />
-        <option value="layoutResourceFile_vertical" />
         <option value="valueResourceFile" />
         <option value="Class" />
         <option value="resourceFile" />
+        <option value="layoutResourceFile_vertical" />
       </list>
     </option>
   </component>
@@ -223,21 +228,21 @@
       <screen x="0" y="25" width="1920" height="965" />
     </state>
     <state x="636" y="332" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.25.1920.965@0.25.1920.965" timestamp="1611379971113" />
-    <state x="100" y="125" width="1720" height="765" key="AVDManager" timestamp="1610890745257">
+    <state x="100" y="125" width="1720" height="765" key="AVDManager" timestamp="1614316301768">
       <screen x="0" y="25" width="1920" height="965" />
     </state>
-    <state x="100" y="125" width="1720" height="765" key="AVDManager/0.25.1920.965@0.25.1920.965" timestamp="1610890745257" />
+    <state x="100" y="125" width="1720" height="765" key="AVDManager/0.25.1920.965@0.25.1920.965" timestamp="1614316301768" />
     <state x="545" y="259" key="AndroidCreateResourceDirectoryDialog" timestamp="1613985397783">
       <screen x="0" y="25" width="1920" height="965" />
     </state>
     <state x="545" y="259" key="AndroidCreateResourceDirectoryDialog/0.25.1920.965/1920.25.1600.875@0.25.1920.965" timestamp="1611833685676" />
     <state x="545" y="259" key="AndroidCreateResourceDirectoryDialog/0.25.1920.965@0.25.1920.965" timestamp="1613985397783" />
-    <state x="434" y="285" key="AndroidCreateResourceFileDialog" timestamp="1613989305410">
+    <state x="434" y="285" key="AndroidCreateResourceFileDialog" timestamp="1614314634465">
       <screen x="0" y="25" width="1920" height="965" />
     </state>
     <state x="545" y="259" key="AndroidCreateResourceFileDialog/0.25.1920.965/1920.25.1600.875@0.25.1920.965" timestamp="1611833696260" />
     <state x="2374" y="237" key="AndroidCreateResourceFileDialog/0.25.1920.965/1920.25.1600.875@1920.25.1600.875" timestamp="1611835958366" />
-    <state x="434" y="285" key="AndroidCreateResourceFileDialog/0.25.1920.965@0.25.1920.965" timestamp="1613989305410" />
+    <state x="434" y="285" key="AndroidCreateResourceFileDialog/0.25.1920.965@0.25.1920.965" timestamp="1614314634465" />
     <state x="770" y="242" key="AndroidCreateXmlResourceDialog" timestamp="1613630484841">
       <screen x="0" y="25" width="1920" height="965" />
     </state>
@@ -246,14 +251,14 @@
       <screen x="0" y="25" width="1920" height="965" />
     </state>
     <state x="570" y="209" key="Downloadable.Font.Dialog.Size/0.25.1920.965@0.25.1920.965" timestamp="1613920437017" />
-    <state x="815" y="387" width="510" height="285" key="Github.ShareDialog" timestamp="1614058582893">
+    <state x="815" y="387" width="510" height="285" key="Github.ShareDialog" timestamp="1614059996088">
       <screen x="0" y="25" width="1920" height="965" />
     </state>
-    <state x="815" y="387" width="510" height="285" key="Github.ShareDialog/0.25.1920.965@0.25.1920.965" timestamp="1614058582893" />
-    <state x="678" y="151" key="Github.UntrackedFilesDialog" timestamp="1614058608687">
+    <state x="815" y="387" width="510" height="285" key="Github.ShareDialog/0.25.1920.965@0.25.1920.965" timestamp="1614059996088" />
+    <state x="678" y="151" key="Github.UntrackedFilesDialog" timestamp="1614060000442">
       <screen x="0" y="25" width="1920" height="965" />
     </state>
-    <state x="678" y="151" key="Github.UntrackedFilesDialog/0.25.1920.965@0.25.1920.965" timestamp="1614058608687" />
+    <state x="678" y="151" key="Github.UntrackedFilesDialog/0.25.1920.965@0.25.1920.965" timestamp="1614060000442" />
     <state width="1865" height="436" key="GridCell.Tab.0.bottom" timestamp="1614042134182">
       <screen x="0" y="25" width="1920" height="965" />
     </state>
@@ -315,6 +320,10 @@
       <screen x="0" y="25" width="1920" height="965" />
     </state>
     <state x="591" y="77" width="738" height="861" key="find.popup/0.25.1920.965@0.25.1920.965" timestamp="1613983361101" />
+    <state x="615" y="259" key="git4idea.merge.GitPullDialog" timestamp="1614060329478">
+      <screen x="0" y="25" width="1920" height="965" />
+    </state>
+    <state x="615" y="259" key="git4idea.merge.GitPullDialog/0.25.1920.965@0.25.1920.965" timestamp="1614060329478" />
     <state x="541" y="228" key="run.anything.popup" timestamp="1609461047429">
       <screen x="0" y="25" width="1920" height="965" />
     </state>
